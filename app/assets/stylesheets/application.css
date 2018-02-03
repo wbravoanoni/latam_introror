@@ -42,3 +42,13 @@ h1{
 p{
 	font-size: 20px;
 }
+
+.circulo {
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background: #5cb85c;
+align-content: center;
+background-image: url(http://www.paisajesimagenes.com/wp-content/uploads/paisajes-destacados-de-uruguay-600x400.jpg);
+margin:0 auto;
+}
