@@ -1,0 +1,11 @@
+-> descargar gemas -> bundle install
+
+rails new nuevoProyecto
+rails generate controller pages index nosotros acerca
+rails destroy (d) controller pages
+
+<% render 'shared/navbar' %>
+
+<%= render template:'pages/navbar' %>
+
+<%= link_to "My Blog", :controller => "pages" %>

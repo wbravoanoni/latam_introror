@@ -52,3 +52,12 @@ align-content: center;
 background-image: url(http://www.paisajesimagenes.com/wp-content/uploads/paisajes-destacados-de-uruguay-600x400.jpg);
 margin:0 auto;
 }
+
+textarea {
+	resize: none;
+}
+
+#formContacto div{
+	padding-bottom: 20px;
+
+}

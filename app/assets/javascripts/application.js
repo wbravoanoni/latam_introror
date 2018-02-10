@@ -14,3 +14,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function(){
+
+   	var $tag=$("a[href='#']");
+    $tag.on("click",function(event){
+    event.preventDefault();    
+    alert("pagina no disponible");
+    });
+
+});
